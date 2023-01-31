@@ -83,6 +83,8 @@ c	Read in data from txt file
 
 	WRITE(6, *) "[FLDCURV] Computing for ", NPH, " phases over "
 	WRITE(6, *) NINCL*NBINCL*NPHADJ*NDP0S, " iterations"
+	WRITE(6, *) "[FLDCURV] Estimated runtime: ",
+     & NINCL*NBINCL*NPHADJ*NDP0S*FLOAT(NPH)*0.000015, " s"
 	CALL CPU_TIME(TSTART)
 c     Iterate over grid, compute
 	NITER = 0
@@ -139,8 +141,8 @@ c		BESTPH, BESTDP, and BCHISQ.
       ENDDO
 	CALL CPU_TIME(TEND)
 
-	WRITE(6, *) "[FLDCURV] Grid computation complete in ", TEND-TSTART
-	WRITE(11, *) "[FLDCURV] Grid computation complete in ", TEND-TSTART
+	WRITE(6, *) "[FLDCURV] Grid computation complete in ", TEND-TSTART, " s"
+	WRITE(11, *) "[FLDCURV] Grid computation complete in ", TEND-TSTART, " s"
 	WRITE(11, *) "[FLDCURV] BEST FIT:"
 	WRITE(11, *) "	I=", BESTI
 	WRITE(11, *) "	B=", BESTB

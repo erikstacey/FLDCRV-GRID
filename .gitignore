@@ -3,3 +3,5 @@ unfld.f
 fldcurv_grid.exe
 bls.dat
 phases.dat
+plot_grid_srch_outs.py
+fldcurv.dat
