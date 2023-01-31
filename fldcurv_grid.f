@@ -1,4 +1,24 @@
       PROGRAM FLDCURV_GRID
+c	Written by Erik Stacey, 30 Jan 2023. Based on FLDCRV program, originally
+c	written by J.D. Landstreet, 1987. Utilizes UNFLD and MAGFLD subroutines
+c	of original program.
+
+c	A program for computing grids of synthetic longitudinal field curves
+c	and comparing them against observed values to determine the best
+c	fit physical parameters for a magnetic star.
+c	As presently configured, this program holds fixed the following:
+c	Limb Darkening: 0.3
+c	Quadropolar component strength: 0
+c	Octopolar component strength: 0
+c	Decentering: 0
+
+c	Requires following file in execution directory:
+c	"bls.dat": input observed bls. Format HJD, Phase, Bl, SigmaBl, Null, SigmaNull
+c	Outputs:
+c	"fldcurv.out": Best fit synthetic longitudinal field curve, format: phase, Bl
+c	"fldcurv.log": Diagnostic messages
+c	"fldcurv_bestpars.out": Best pars as identified through the grid search
+
       INTEGER :: NINCL, NBINCL, NPHADJ, NDP0S
       REAL :: CHISQ, BCHISQ, NITER
 	REAL :: BESTI, BESTB, BESTPH, BESTDP
@@ -36,7 +56,9 @@ c     Set up grid to compute over
       END DO
 
       OPEN(2,FILE='./fldcurv.out',STATUS='unknown')
-      OPEN(3,FILE='./grunhut_bls.txt',STATUS='OLD')
+      OPEN(3,FILE='./bls.dat',STATUS='OLD')
+	OPEN(11, FILE='./fldcurv.log', STATUS="unknown")
+	OPEN(12, FILE='./fldcurv_bestpars.out', STATUS="unknown")
       
 
 c	Set fixed pars
@@ -98,16 +120,16 @@ c		Best fit parameters are stored in BESTI, BESTB,
 c		BESTPH, BESTDP, and BCHISQ.
 		CALL CCHISQ(CRVMDL, GRBLS, SIGBLS, CHISQ, NPH)
 		IF ((BCHISQ .GT. CHISQ) .OR. (BCHISQ .EQ. 0)) THEN
-			WRITE(6, *) "[FLDCURV] Found improved fit..."
-			WRITE(6, *) "	Previous best chisq: ", BCHISQ
-			WRITE(6, *) "	New best chisq: ", CHISQ
+			WRITE(11, *) "[FLDCURV] Found improved fit..."
+			WRITE(11, *) "	Previous best chisq: ", BCHISQ
+			WRITE(11, *) "	New best chisq: ", CHISQ
 			
 			BCHISQ = CHISQ
 			BESTI = INCLS(IDXI)
 			BESTB = BINCLS(IDXB)
 			BESTPH = PHADJS(IDXPH)
 			BESTDP = DP0S(IDXDP)
-			WRITE(6, *) "	New best pars:", BESTI, 
+			WRITE(11, *) "	New best pars:", BESTI, 
      &		BESTB, BESTPH, BESTDP
 		END IF 
 
@@ -118,11 +140,18 @@ c		BESTPH, BESTDP, and BCHISQ.
 	CALL CPU_TIME(TEND)
 
 	WRITE(6, *) "[FLDCURV] Grid computation complete in ", TEND-TSTART
-	WRITE(6, *) "[FLDCURV] BEST FIT:"
-	WRITE(6, *) "	I=", BESTI
-	WRITE(6, *) "	B=", BESTB
-	WRITE(6, *) "	DP0=", BESTDP
-	WRITE(6, *) "	PH_ADJ=", BESTPH
+	WRITE(11, *) "[FLDCURV] Grid computation complete in ", TEND-TSTART
+	WRITE(11, *) "[FLDCURV] BEST FIT:"
+	WRITE(11, *) "	I=", BESTI
+	WRITE(11, *) "	B=", BESTB
+	WRITE(11, *) "	DP0=", BESTDP
+	WRITE(11, *) "	PH_ADJ=", BESTPH
+
+	WRITE(12, *) "I: ", BESTI
+	WRITE(12, *) "B: ", BESTB
+	WRITE(12, *) "DP0: ", BESTDP
+	WRITE(12, *) "PHADJ: ", BESTPH
+	WRITE(12, *) "CHISQ: ", BCHISQ
 
 	WRITE(6, *)"[FLDCURV] Writing best fit model to fldcurv.out"
 
