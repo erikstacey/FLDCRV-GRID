@@ -1,214 +1,850 @@
+ Incl LB, UB, N:    70.0000000       90.0000000             100
+ Beta Incl LB, UB, N:   55.0000000       80.0000000             100
+ Phase corr LB, UB, N: -0.100000001      0.100000001              10
+ Dipolar FS LB, UB, N:   1000.00000       3000.00000              40
+ [FLDCURV] Computing for           63  phases over 
+     4000000  iterations
+ [FLDCURV] Estimated runtime:    3780.00000      s
  [FLDCURV] Found improved fit...
  	Previous best chisq:    0.00000000    
- 	New best chisq:    278.624023    
- 	New best pars:   0.00000000       0.00000000     -0.500000000       500.000000    
+ 	New best chisq:    165.651810    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1000.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    278.624023    
- 	New best chisq:    278.206299    
- 	New best pars:   0.00000000       9.00000000     -0.500000000       500.000000    
+ 	Previous best chisq:    165.651810    
+ 	New best chisq:    162.931061    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1050.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    278.206299    
- 	New best chisq:    278.206268    
- 	New best pars:   0.00000000       9.00000000     -0.400000006       500.000000    
+ 	Previous best chisq:    162.931061    
+ 	New best chisq:    160.461670    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1100.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    278.206268    
- 	New best chisq:    278.206238    
- 	New best pars:   0.00000000       9.00000000      0.199999988       500.000000    
+ 	Previous best chisq:    160.461670    
+ 	New best chisq:    158.243713    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1150.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    278.206238    
- 	New best chisq:    277.014526    
- 	New best pars:   0.00000000       18.0000000     -0.500000000       500.000000    
+ 	Previous best chisq:    158.243713    
+ 	New best chisq:    156.277283    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1200.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    277.014526    
- 	New best chisq:    275.226471    
- 	New best pars:   0.00000000       27.0000000     -0.500000000       500.000000    
+ 	Previous best chisq:    156.277283    
+ 	New best chisq:    154.562271    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1250.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    275.226471    
- 	New best chisq:    275.226440    
- 	New best pars:   0.00000000       27.0000000       0.00000000       500.000000    
+ 	Previous best chisq:    154.562271    
+ 	New best chisq:    153.098679    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1300.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    275.226440    
- 	New best chisq:    273.117249    
- 	New best pars:   0.00000000       36.0000000     -0.500000000       500.000000    
+ 	Previous best chisq:    153.098679    
+ 	New best chisq:    151.886551    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1350.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    273.117249    
- 	New best chisq:    273.117218    
- 	New best pars:   0.00000000       36.0000000     -0.300000012       500.000000    
+ 	Previous best chisq:    151.886551    
+ 	New best chisq:    150.925842    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1400.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    273.117218    
- 	New best chisq:    271.030334    
- 	New best pars:   0.00000000       45.0000000     -0.500000000       500.000000    
+ 	Previous best chisq:    150.925842    
+ 	New best chisq:    150.216568    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1450.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    271.030334    
- 	New best chisq:    271.030304    
- 	New best pars:   0.00000000       45.0000000     -0.199999988       500.000000    
+ 	Previous best chisq:    150.216568    
+ 	New best chisq:    149.758774    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1500.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    271.030304    
- 	New best chisq:    269.339905    
- 	New best pars:   0.00000000       54.0000000     -0.500000000       500.000000    
+ 	Previous best chisq:    149.758774    
+ 	New best chisq:    149.552429    
+ 	New best pars:   70.0000000       55.0000000     -0.100000001       1550.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    269.339905    
- 	New best chisq:    268.410645    
- 	New best pars:   0.00000000       63.0000000     -0.500000000       500.000000    
+ 	Previous best chisq:    149.552429    
+ 	New best chisq:    148.664459    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1150.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    268.410645    
- 	New best chisq:    268.326721    
- 	New best pars:   0.00000000       81.0000000     -0.500000000       1250.00000    
+ 	Previous best chisq:    148.664459    
+ 	New best chisq:    146.212158    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1200.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    268.326721    
- 	New best chisq:    268.326691    
- 	New best pars:   0.00000000       81.0000000      0.300000012       1250.00000    
+ 	Previous best chisq:    146.212158    
+ 	New best chisq:    144.005585    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1250.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    268.326691    
- 	New best chisq:    266.053345    
- 	New best pars:   4.50000000       45.0000000      -9.99999940E-02   500.000000    
+ 	Previous best chisq:    144.005585    
+ 	New best chisq:    142.044724    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1300.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    266.053345    
- 	New best chisq:    265.570953    
- 	New best pars:   4.50000000       45.0000000       0.00000000       500.000000    
+ 	Previous best chisq:    142.044724    
+ 	New best chisq:    140.329514    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1350.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    265.570953    
- 	New best chisq:    263.608398    
- 	New best pars:   4.50000000       54.0000000      -9.99999940E-02   500.000000    
+ 	Previous best chisq:    140.329514    
+ 	New best chisq:    138.859894    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1400.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    263.608398    
- 	New best chisq:    263.076996    
- 	New best pars:   4.50000000       54.0000000       0.00000000       500.000000    
+ 	Previous best chisq:    138.859894    
+ 	New best chisq:    137.636017    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1450.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    263.076996    
- 	New best chisq:    262.036469    
- 	New best pars:   4.50000000       63.0000000      -9.99999940E-02   500.000000    
+ 	Previous best chisq:    137.636017    
+ 	New best chisq:    136.657822    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1500.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    262.036469    
- 	New best chisq:    261.476929    
- 	New best pars:   4.50000000       63.0000000       0.00000000       500.000000    
+ 	Previous best chisq:    136.657822    
+ 	New best chisq:    135.925217    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1550.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    261.476929    
- 	New best chisq:    256.173340    
- 	New best pars:   4.50000000       72.0000000      -9.99999940E-02   1250.00000    
+ 	Previous best chisq:    135.925217    
+ 	New best chisq:    135.438324    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1600.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    256.173340    
- 	New best chisq:    254.439758    
- 	New best pars:   4.50000000       72.0000000       0.00000000       1250.00000    
+ 	Previous best chisq:    135.438324    
+ 	New best chisq:    135.197083    
+ 	New best pars:   70.0000000       55.0000000      -7.99999982E-02   1650.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    254.439758    
- 	New best chisq:    250.969864    
- 	New best pars:   4.50000000       81.0000000      -9.99999940E-02   1250.00000    
+ 	Previous best chisq:    135.197083    
+ 	New best chisq:    133.449646    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1300.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    250.969864    
- 	New best chisq:    243.278046    
- 	New best pars:   4.50000000       81.0000000      -9.99999940E-02   2000.00000    
+ 	Previous best chisq:    133.449646    
+ 	New best chisq:    131.296707    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1350.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    243.278046    
- 	New best chisq:    239.672577    
- 	New best pars:   4.50000000       81.0000000      -9.99999940E-02   2750.00000    
+ 	Previous best chisq:    131.296707    
+ 	New best chisq:    129.381500    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1400.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    239.672577    
- 	New best chisq:    235.284546    
- 	New best pars:   4.50000000       81.0000000       0.00000000       2750.00000    
+ 	Previous best chisq:    129.381500    
+ 	New best chisq:    127.704025    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1450.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    235.284546    
- 	New best chisq:    234.002380    
- 	New best pars:   4.50000000       81.0000000       0.00000000       3500.00000    
+ 	Previous best chisq:    127.704025    
+ 	New best chisq:    126.264244    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1500.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    234.002380    
- 	New best chisq:    233.516541    
- 	New best pars:   4.50000000       90.0000000     -0.199999988       7250.00000    
+ 	Previous best chisq:    126.264244    
+ 	New best chisq:    125.062263    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1550.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    233.516541    
- 	New best chisq:    224.995773    
- 	New best pars:   4.50000000       90.0000000      -9.99999940E-02   3500.00000    
+ 	Previous best chisq:    125.062263    
+ 	New best chisq:    124.097992    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1600.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    224.995773    
- 	New best chisq:    216.071274    
- 	New best pars:   4.50000000       90.0000000      -9.99999940E-02   4250.00000    
+ 	Previous best chisq:    124.097992    
+ 	New best chisq:    123.371437    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1650.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    216.071274    
- 	New best chisq:    207.617767    
- 	New best pars:   4.50000000       90.0000000      -9.99999940E-02   5000.00000    
+ 	Previous best chisq:    123.371437    
+ 	New best chisq:    122.882622    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1700.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    207.617767    
- 	New best chisq:    199.635117    
- 	New best pars:   4.50000000       90.0000000      -9.99999940E-02   5750.00000    
+ 	Previous best chisq:    122.882622    
+ 	New best chisq:    122.631561    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1750.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    199.635117    
- 	New best chisq:    192.123474    
- 	New best pars:   4.50000000       90.0000000      -9.99999940E-02   6500.00000    
+ 	Previous best chisq:    122.631561    
+ 	New best chisq:    122.618217    
+ 	New best pars:   70.0000000       55.0000000      -6.00000024E-02   1800.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    192.123474    
- 	New best chisq:    185.082733    
- 	New best pars:   4.50000000       90.0000000      -9.99999940E-02   7250.00000    
+ 	Previous best chisq:    122.618217    
+ 	New best chisq:    120.706886    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1450.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    185.082733    
- 	New best chisq:    182.284103    
- 	New best pars:   4.50000000       90.0000000       0.00000000       6500.00000    
+ 	Previous best chisq:    120.706886    
+ 	New best chisq:    118.880890    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1500.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    182.284103    
- 	New best chisq:    173.690796    
- 	New best pars:   4.50000000       90.0000000       0.00000000       7250.00000    
+ 	Previous best chisq:    118.880890    
+ 	New best chisq:    117.283020    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1550.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    173.690796    
- 	New best chisq:    163.504959    
- 	New best pars:   9.00000000       90.0000000      -9.99999940E-02   5000.00000    
+ 	Previous best chisq:    117.283020    
+ 	New best chisq:    115.913155    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1600.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    163.504959    
- 	New best chisq:    154.276718    
- 	New best pars:   9.00000000       90.0000000      -9.99999940E-02   5750.00000    
+ 	Previous best chisq:    115.913155    
+ 	New best chisq:    114.771416    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1650.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    154.276718    
- 	New best chisq:    146.920700    
- 	New best pars:   9.00000000       90.0000000      -9.99999940E-02   6500.00000    
+ 	Previous best chisq:    114.771416    
+ 	New best chisq:    113.857697    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1700.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    146.920700    
- 	New best chisq:    141.436722    
- 	New best pars:   9.00000000       90.0000000      -9.99999940E-02   7250.00000    
+ 	Previous best chisq:    113.857697    
+ 	New best chisq:    113.172119    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1750.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    141.436722    
- 	New best chisq:    132.554337    
- 	New best pars:   9.00000000       90.0000000       0.00000000       5750.00000    
+ 	Previous best chisq:    113.172119    
+ 	New best chisq:    112.714523    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1800.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    132.554337    
- 	New best chisq:    120.877686    
- 	New best pars:   9.00000000       90.0000000       0.00000000       6500.00000    
+ 	Previous best chisq:    112.714523    
+ 	New best chisq:    112.485031    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1850.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    120.877686    
- 	New best chisq:    110.729950    
- 	New best pars:   9.00000000       90.0000000       0.00000000       7250.00000    
+ 	Previous best chisq:    112.485031    
+ 	New best chisq:    112.483665    
+ 	New best pars:   70.0000000       55.0000000      -3.99999991E-02   1900.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    110.729950    
- 	New best chisq:    108.145294    
- 	New best pars:   13.5000000       90.0000000       0.00000000       5000.00000    
+ 	Previous best chisq:    112.483665    
+ 	New best chisq:    111.202736    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1600.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    108.145294    
- 	New best chisq:    96.4883881    
- 	New best pars:   13.5000000       90.0000000       0.00000000       5750.00000    
+ 	Previous best chisq:    111.202736    
+ 	New best chisq:    109.734428    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1650.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    96.4883881    
- 	New best chisq:    88.2362671    
- 	New best pars:   13.5000000       90.0000000       0.00000000       6500.00000    
+ 	Previous best chisq:    109.734428    
+ 	New best chisq:    108.483345    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1700.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    88.2362671    
- 	New best chisq:    83.3889542    
- 	New best pars:   13.5000000       90.0000000       0.00000000       7250.00000    
+ 	Previous best chisq:    108.483345    
+ 	New best chisq:    107.449471    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1750.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    83.3889542    
- 	New best chisq:    82.2687988    
- 	New best pars:   18.0000000       90.0000000       0.00000000       5750.00000    
+ 	Previous best chisq:    107.449471    
+ 	New best chisq:    106.632744    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1800.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    82.2687988    
- 	New best chisq:    82.1312866    
- 	New best pars:   22.5000000       90.0000000       0.00000000       5000.00000    
+ 	Previous best chisq:    106.632744    
+ 	New best chisq:    106.033249    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1850.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    82.1312866    
- 	New best chisq:    81.9725037    
- 	New best pars:   31.5000000       90.0000000       0.00000000       3500.00000    
+ 	Previous best chisq:    106.033249    
+ 	New best chisq:    105.650978    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1900.00000    
  [FLDCURV] Found improved fit...
- 	Previous best chisq:    81.9725037    
- 	New best chisq:    81.9388275    
- 	New best pars:   67.5000000       90.0000000       0.00000000       2000.00000    
- [FLDCURV] Grid computation complete in    36.1957169    
- [FLDCURV] BEST FIT:
- 	I=   67.5000000    
- 	B=   90.0000000    
- 	DP0=   2000.00000    
- 	PH_ADJ=   0.00000000    
+ 	Previous best chisq:    105.650978    
+ 	New best chisq:    105.485924    
+ 	New best pars:   70.0000000       55.0000000      -2.00000033E-02   1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    105.485924    
+ 	New best chisq:    104.734230    
+ 	New best pars:   70.0000000       55.0000000       0.00000000       1800.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    104.734230    
+ 	New best chisq:    103.869431    
+ 	New best pars:   70.0000000       55.0000000       0.00000000       1850.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    103.869431    
+ 	New best chisq:    103.210274    
+ 	New best pars:   70.0000000       55.0000000       0.00000000       1900.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    103.210274    
+ 	New best chisq:    102.756851    
+ 	New best pars:   70.0000000       55.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.756851    
+ 	New best chisq:    102.509186    
+ 	New best pars:   70.0000000       55.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.509186    
+ 	New best chisq:    102.467155    
+ 	New best pars:   70.0000000       55.0000000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.467155    
+ 	New best chisq:    102.432671    
+ 	New best pars:   70.0000000       55.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.432671    
+ 	New best chisq:    102.190018    
+ 	New best pars:   70.0000000       55.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.190018    
+ 	New best chisq:    102.153740    
+ 	New best pars:   70.0000000       55.2500000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.153740    
+ 	New best chisq:    102.111778    
+ 	New best pars:   70.0000000       55.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    102.111778    
+ 	New best chisq:    101.874168    
+ 	New best pars:   70.0000000       55.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.874168    
+ 	New best chisq:    101.843643    
+ 	New best pars:   70.0000000       55.5000000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.843643    
+ 	New best chisq:    101.794144    
+ 	New best pars:   70.0000000       55.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.794144    
+ 	New best chisq:    101.561699    
+ 	New best pars:   70.0000000       55.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.561699    
+ 	New best chisq:    101.536873    
+ 	New best pars:   70.0000000       55.7500000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.536873    
+ 	New best chisq:    101.479820    
+ 	New best pars:   70.0000000       56.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.479820    
+ 	New best chisq:    101.252403    
+ 	New best pars:   70.0000000       56.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.252403    
+ 	New best chisq:    101.233360    
+ 	New best pars:   70.0000000       56.0000000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.233360    
+ 	New best chisq:    101.168747    
+ 	New best pars:   70.0000000       56.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    101.168747    
+ 	New best chisq:    100.946411    
+ 	New best pars:   70.0000000       56.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.946411    
+ 	New best chisq:    100.933067    
+ 	New best pars:   70.0000000       56.2500000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.933067    
+ 	New best chisq:    100.860878    
+ 	New best pars:   70.0000000       56.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.860878    
+ 	New best chisq:    100.643623    
+ 	New best pars:   70.0000000       56.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.643623    
+ 	New best chisq:    100.636002    
+ 	New best pars:   70.0000000       56.5000000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.636002    
+ 	New best chisq:    100.556259    
+ 	New best pars:   70.0000000       56.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.556259    
+ 	New best chisq:    100.344063    
+ 	New best pars:   70.0000000       56.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.344063    
+ 	New best chisq:    100.342247    
+ 	New best pars:   70.0000000       56.7500000       0.00000000       2050.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.342247    
+ 	New best chisq:    100.254753    
+ 	New best pars:   70.0000000       57.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.254753    
+ 	New best chisq:    100.047661    
+ 	New best pars:   70.0000000       57.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    100.047661    
+ 	New best chisq:    99.9564438    
+ 	New best pars:   70.0000000       57.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.9564438    
+ 	New best chisq:    99.7543945    
+ 	New best pars:   70.0000000       57.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.7543945    
+ 	New best chisq:    99.6612320    
+ 	New best pars:   70.0000000       57.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.6612320    
+ 	New best chisq:    99.4643021    
+ 	New best pars:   70.0000000       57.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.4643021    
+ 	New best chisq:    99.3691788    
+ 	New best pars:   70.0000000       57.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.3691788    
+ 	New best chisq:    99.1772766    
+ 	New best pars:   70.0000000       57.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.1772766    
+ 	New best chisq:    99.0801620    
+ 	New best pars:   70.0000000       58.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    99.0801620    
+ 	New best chisq:    98.8933487    
+ 	New best pars:   70.0000000       58.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.8933487    
+ 	New best chisq:    98.7942352    
+ 	New best pars:   70.0000000       58.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.7942352    
+ 	New best chisq:    98.6125107    
+ 	New best pars:   70.0000000       58.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.6125107    
+ 	New best chisq:    98.5113678    
+ 	New best pars:   70.0000000       58.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.5113678    
+ 	New best chisq:    98.3346939    
+ 	New best pars:   70.0000000       58.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.3346939    
+ 	New best chisq:    98.2315292    
+ 	New best pars:   70.0000000       58.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.2315292    
+ 	New best chisq:    98.0598679    
+ 	New best pars:   70.0000000       58.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    98.0598679    
+ 	New best chisq:    97.9546814    
+ 	New best pars:   70.0000000       59.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.9546814    
+ 	New best chisq:    97.7880478    
+ 	New best pars:   70.0000000       59.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.7880478    
+ 	New best chisq:    97.6808243    
+ 	New best pars:   70.0000000       59.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.6808243    
+ 	New best chisq:    97.5191956    
+ 	New best pars:   70.0000000       59.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.5191956    
+ 	New best chisq:    97.4099197    
+ 	New best pars:   70.0000000       59.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.4099197    
+ 	New best chisq:    97.2532959    
+ 	New best pars:   70.0000000       59.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.2532959    
+ 	New best chisq:    97.1419754    
+ 	New best pars:   70.0000000       59.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    97.1419754    
+ 	New best chisq:    96.9903259    
+ 	New best pars:   70.0000000       59.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.9903259    
+ 	New best chisq:    96.8769455    
+ 	New best pars:   70.0000000       60.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.8769455    
+ 	New best chisq:    96.7302551    
+ 	New best pars:   70.0000000       60.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.7302551    
+ 	New best chisq:    96.6148071    
+ 	New best pars:   70.0000000       60.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.6148071    
+ 	New best chisq:    96.4730301    
+ 	New best pars:   70.0000000       60.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.4730301    
+ 	New best chisq:    96.3555298    
+ 	New best pars:   70.0000000       60.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.3555298    
+ 	New best chisq:    96.2187195    
+ 	New best pars:   70.0000000       60.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.2187195    
+ 	New best chisq:    96.0992203    
+ 	New best pars:   70.0000000       60.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    96.0992203    
+ 	New best chisq:    95.9672012    
+ 	New best pars:   70.0000000       60.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.9672012    
+ 	New best chisq:    95.8456268    
+ 	New best pars:   70.0000000       61.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.8456268    
+ 	New best chisq:    95.7185593    
+ 	New best pars:   70.0000000       61.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.7185593    
+ 	New best chisq:    95.5949554    
+ 	New best pars:   70.0000000       61.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.5949554    
+ 	New best chisq:    95.4726715    
+ 	New best pars:   70.0000000       61.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.4726715    
+ 	New best chisq:    95.3470078    
+ 	New best pars:   70.0000000       61.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.3470078    
+ 	New best chisq:    95.2295609    
+ 	New best pars:   70.0000000       61.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.2295609    
+ 	New best chisq:    95.1018753    
+ 	New best pars:   70.0000000       61.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    95.1018753    
+ 	New best chisq:    94.9892044    
+ 	New best pars:   70.0000000       61.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.9892044    
+ 	New best chisq:    94.8595047    
+ 	New best pars:   70.0000000       62.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.8595047    
+ 	New best chisq:    94.7515640    
+ 	New best pars:   70.0000000       62.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.7515640    
+ 	New best chisq:    94.6198959    
+ 	New best pars:   70.0000000       62.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.6198959    
+ 	New best chisq:    94.5166550    
+ 	New best pars:   70.0000000       62.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.5166550    
+ 	New best chisq:    94.3829498    
+ 	New best pars:   70.0000000       62.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.3829498    
+ 	New best chisq:    94.2844620    
+ 	New best pars:   70.0000000       62.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.2844620    
+ 	New best chisq:    94.1487808    
+ 	New best pars:   70.0000000       62.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.1487808    
+ 	New best chisq:    94.0548859    
+ 	New best pars:   70.0000000       62.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    94.0548859    
+ 	New best chisq:    93.9172440    
+ 	New best pars:   70.0000000       63.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.9172440    
+ 	New best chisq:    93.8279572    
+ 	New best pars:   70.0000000       63.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.8279572    
+ 	New best chisq:    93.6883850    
+ 	New best pars:   70.0000000       63.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.6883850    
+ 	New best chisq:    93.6037598    
+ 	New best pars:   70.0000000       63.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.6037598    
+ 	New best chisq:    93.4621964    
+ 	New best pars:   70.0000000       63.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.4621964    
+ 	New best chisq:    93.3820648    
+ 	New best pars:   70.0000000       63.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.3820648    
+ 	New best chisq:    93.2386551    
+ 	New best pars:   70.0000000       63.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.2386551    
+ 	New best chisq:    93.1630249    
+ 	New best pars:   70.0000000       63.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.1630249    
+ 	New best chisq:    93.0176926    
+ 	New best pars:   70.0000000       64.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    93.0176926    
+ 	New best chisq:    92.9464951    
+ 	New best pars:   70.0000000       64.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.9464951    
+ 	New best chisq:    92.7993164    
+ 	New best pars:   70.0000000       64.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.7993164    
+ 	New best chisq:    92.7325516    
+ 	New best pars:   70.0000000       64.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.7325516    
+ 	New best chisq:    92.5835800    
+ 	New best pars:   70.0000000       64.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.5835800    
+ 	New best chisq:    92.5211868    
+ 	New best pars:   70.0000000       64.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.5211868    
+ 	New best chisq:    92.3703384    
+ 	New best pars:   70.0000000       64.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.3703384    
+ 	New best chisq:    92.3122940    
+ 	New best pars:   70.0000000       64.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.3122940    
+ 	New best chisq:    92.1596832    
+ 	New best pars:   70.0000000       65.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.1596832    
+ 	New best chisq:    92.1058807    
+ 	New best pars:   70.0000000       65.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    92.1058807    
+ 	New best chisq:    91.9515305    
+ 	New best pars:   70.0000000       65.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.9515305    
+ 	New best chisq:    91.9020157    
+ 	New best pars:   70.0000000       65.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.9020157    
+ 	New best chisq:    91.7459106    
+ 	New best pars:   70.0000000       65.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.7459106    
+ 	New best chisq:    91.7005997    
+ 	New best pars:   70.0000000       65.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.7005997    
+ 	New best chisq:    91.5427551    
+ 	New best pars:   70.0000000       65.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.5427551    
+ 	New best chisq:    91.5016022    
+ 	New best pars:   70.0000000       65.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.5016022    
+ 	New best chisq:    91.3421021    
+ 	New best pars:   70.0000000       66.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.3421021    
+ 	New best chisq:    91.3049927    
+ 	New best pars:   70.0000000       66.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.3049927    
+ 	New best chisq:    91.1438751    
+ 	New best pars:   70.0000000       66.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.1438751    
+ 	New best chisq:    91.1108856    
+ 	New best pars:   70.0000000       66.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    91.1108856    
+ 	New best chisq:    90.9481201    
+ 	New best pars:   70.0000000       66.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.9481201    
+ 	New best chisq:    90.9190979    
+ 	New best pars:   70.0000000       66.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.9190979    
+ 	New best chisq:    90.7547760    
+ 	New best pars:   70.0000000       66.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.7547760    
+ 	New best chisq:    90.7297058    
+ 	New best pars:   70.0000000       66.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.7297058    
+ 	New best chisq:    90.5638885    
+ 	New best pars:   70.0000000       67.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.5638885    
+ 	New best chisq:    90.5427246    
+ 	New best pars:   70.0000000       67.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.5427246    
+ 	New best chisq:    90.3753662    
+ 	New best pars:   70.0000000       67.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.3753662    
+ 	New best chisq:    90.3579788    
+ 	New best pars:   70.0000000       67.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.3579788    
+ 	New best chisq:    90.1892624    
+ 	New best pars:   70.0000000       67.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.1892624    
+ 	New best chisq:    90.1756439    
+ 	New best pars:   70.0000000       67.5000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.1756439    
+ 	New best chisq:    90.0054626    
+ 	New best pars:   70.0000000       67.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    90.0054626    
+ 	New best chisq:    89.9955597    
+ 	New best pars:   70.0000000       67.7500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.9955597    
+ 	New best chisq:    89.8240738    
+ 	New best pars:   70.0000000       68.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.8240738    
+ 	New best chisq:    89.8178101    
+ 	New best pars:   70.0000000       68.0000000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.8178101    
+ 	New best chisq:    89.6449738    
+ 	New best pars:   70.0000000       68.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.6449738    
+ 	New best chisq:    89.6423416    
+ 	New best pars:   70.0000000       68.2500000       0.00000000       2000.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.6423416    
+ 	New best chisq:    89.4682388    
+ 	New best pars:   70.0000000       68.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.4682388    
+ 	New best chisq:    89.2937469    
+ 	New best pars:   70.0000000       68.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.2937469    
+ 	New best chisq:    89.1215897    
+ 	New best pars:   70.0000000       69.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    89.1215897    
+ 	New best chisq:    88.9517593    
+ 	New best pars:   70.0000000       69.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    88.9517593    
+ 	New best chisq:    88.7841187    
+ 	New best pars:   70.0000000       69.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    88.7841187    
+ 	New best chisq:    88.6188202    
+ 	New best pars:   70.0000000       69.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    88.6188202    
+ 	New best chisq:    88.4557037    
+ 	New best pars:   70.0000000       70.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    88.4557037    
+ 	New best chisq:    88.2948227    
+ 	New best pars:   70.0000000       70.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    88.2948227    
+ 	New best chisq:    88.1361923    
+ 	New best pars:   70.0000000       70.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    88.1361923    
+ 	New best chisq:    87.9797058    
+ 	New best pars:   70.0000000       70.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.9797058    
+ 	New best chisq:    87.8255005    
+ 	New best pars:   70.0000000       71.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.8255005    
+ 	New best chisq:    87.6733780    
+ 	New best pars:   70.0000000       71.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.6733780    
+ 	New best chisq:    87.5234833    
+ 	New best pars:   70.0000000       71.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.5234833    
+ 	New best chisq:    87.3757553    
+ 	New best pars:   70.0000000       71.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.3757553    
+ 	New best chisq:    87.2301102    
+ 	New best pars:   70.0000000       72.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.2301102    
+ 	New best chisq:    87.0866699    
+ 	New best pars:   70.0000000       72.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    87.0866699    
+ 	New best chisq:    86.9452972    
+ 	New best pars:   70.0000000       72.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.9452972    
+ 	New best chisq:    86.8060760    
+ 	New best pars:   70.0000000       72.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.8060760    
+ 	New best chisq:    86.6689148    
+ 	New best pars:   70.0000000       73.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.6689148    
+ 	New best chisq:    86.5338974    
+ 	New best pars:   70.0000000       73.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.5338974    
+ 	New best chisq:    86.4009247    
+ 	New best pars:   70.0000000       73.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.4009247    
+ 	New best chisq:    86.2700577    
+ 	New best pars:   70.0000000       73.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.2700577    
+ 	New best chisq:    86.1412659    
+ 	New best pars:   70.0000000       74.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.1412659    
+ 	New best chisq:    86.0145035    
+ 	New best pars:   70.0000000       74.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    86.0145035    
+ 	New best chisq:    85.8898010    
+ 	New best pars:   70.0000000       74.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.8898010    
+ 	New best chisq:    85.7671051    
+ 	New best pars:   70.0000000       74.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.7671051    
+ 	New best chisq:    85.6464386    
+ 	New best pars:   70.0000000       75.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.6464386    
+ 	New best chisq:    85.5278625    
+ 	New best pars:   70.0000000       75.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.5278625    
+ 	New best chisq:    85.4112167    
+ 	New best pars:   70.0000000       75.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.4112167    
+ 	New best chisq:    85.2966309    
+ 	New best pars:   70.0000000       75.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.2966309    
+ 	New best chisq:    85.1840210    
+ 	New best pars:   70.0000000       76.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.1840210    
+ 	New best chisq:    85.0734177    
+ 	New best pars:   70.0000000       76.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    85.0734177    
+ 	New best chisq:    84.9647980    
+ 	New best pars:   70.0000000       76.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.9647980    
+ 	New best chisq:    84.8581543    
+ 	New best pars:   70.0000000       76.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.8581543    
+ 	New best chisq:    84.7534943    
+ 	New best pars:   70.0000000       77.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.7534943    
+ 	New best chisq:    84.6507721    
+ 	New best pars:   70.0000000       77.2500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.6507721    
+ 	New best chisq:    84.5500259    
+ 	New best pars:   70.0000000       77.5000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.5500259    
+ 	New best chisq:    84.4512329    
+ 	New best pars:   70.0000000       77.7500000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.4512329    
+ 	New best chisq:    84.3543930    
+ 	New best pars:   70.0000000       78.0000000       0.00000000       1950.00000    
+ [FLDCURV] Found improved fit...
+ 	Previous best chisq:    84.3543930    
+ 	New best chisq:    84.2595367    

@@ -1,6 +1,6 @@
       PROGRAM FLDCURV_GRID
 c	Written by Erik Stacey, 30 Jan 2023. Based on FLDCRV program, originally
-c	written by J.D. Landstreet, 1987. Utilizes UNFLD and MAGFLD subroutines
+c	written by J.D. Landstreet, 1986. Utilizes UNFLD and MAGFLD subroutines
 c	of original program.
 
 c	A program for computing grids of synthetic longitudinal field curves
@@ -20,14 +20,14 @@ c	"fldcurv.log": Diagnostic messages
 c	"fldcurv_bestpars.out": Best pars as identified through the grid search
 
       INTEGER :: NINCL, NBINCL, NPHADJ, NDP0S
-      REAL :: CHISQ, BCHISQ, NITER
+      REAL :: CHISQ, BCHISQ
 	REAL :: BESTI, BESTB, BESTPH, BESTDP
 c     These parameters define the grid. UL=upper limit, LL=lowerlimit
 c     N* = number of values
 	REAL :: LLI, ULI, LLB, ULB, LLPH, ULPH, LLDP0, ULDP0
-      PARAMETER(NINCL=20, NBINCL=20, NPHADJ=10, NDP0S=10)
-      PARAMETER(LLI=0, LLB=0, LLPH=-0.5, LLDP0=500)
-      PARAMETER(ULI=90, ULB=180, ULPH=0.5, ULDP0=8000)
+      PARAMETER(NINCL=100, NBINCL=100, NPHADJ=10, NDP0S=40)
+      PARAMETER(LLI=70, LLB=55, LLPH=-0.1, LLDP0=1000)
+      PARAMETER(ULI=90, ULB=80, ULPH=0.1, ULDP0=3000)
       REAL, DIMENSION(1000) :: INPPH, CRVMDL, HJDS, GRBLS, SIGBLS, GRNUL
 	REAL, DIMENSION(1000) :: SIGNUL
       REAL, DIMENSION(NINCL) :: INCLS
@@ -35,9 +35,12 @@ c     N* = number of values
       REAL, DIMENSION(NPHADJ) :: PHADJS
       REAL, DIMENSION(NDP0S) :: DP0S
 c     NPH is the number of phases to compute over, not be confused with the phase adjustments
-      INTEGER NPH
+c	LSTPCT stores the last reported percentage value for progress, as an integer from 1-100
+c	if the measured percentage doesn't exceed this, it doesn't get reported
+c	As these are determined through integer division, only integers between 1-100 can be reported
+      INTEGER NPH, NITER, TITER, LSTPCTad
 c	Timing
-	REAL :: TSTART, TEND
+	REAL :: TSTART, TEND, CTIME
       WRITE(6, *) "[FLDCURV] Setting up grid..."
 c     Set up grid to compute over
       DO I=1, NINCL
@@ -67,7 +70,7 @@ c	Set fixed pars
 	A=0
 	EPS=0.3
 
-c	Set Best chisq to 0, if bchisq is 0 always accept challenger in loop
+c	Set Best chisq to 0, if bchisq is 0 always accept challenging chisq in loop
 	BCHISQ = 0
 	BESTI=0
 	BESTB=0
@@ -81,18 +84,46 @@ c	Read in data from txt file
 		READ(3, *) HJDS(I), INPPH(I), GRBLS(I), SIGBLS(I), GRNUL(I), SIGNUL(I)
 	ENDDO
 
+	TITER = NINCL*NBINCL*NPHADJ*NDP0S
+c	Record the boundaries and steps to the log file
+	WRITE(11, *) "Incl LB, UB, N: ", LLI, ULI, NINCL
+	WRITE(11, *) "Beta Incl LB, UB, N:", LLB, ULB, NBINCL
+	WRITE(11, *) "Phase corr LB, UB, N:", LLPH, ULPH, NPHADJ
+	WRITE(11, *) "Dipolar FS LB, UB, N:", LLDP0, ULDP0, NDP0S
+
 	WRITE(6, *) "[FLDCURV] Computing for ", NPH, " phases over "
-	WRITE(6, *) NINCL*NBINCL*NPHADJ*NDP0S, " iterations"
+	WRITE(6, *) TITER, " iterations"
 	WRITE(6, *) "[FLDCURV] Estimated runtime: ",
-     & NINCL*NBINCL*NPHADJ*NDP0S*FLOAT(NPH)*0.000015, " s"
+     & FLOAT(TITER)*FLOAT(NPH)*0.000015, " s"
+
+     	WRITE(11, *) "[FLDCURV] Computing for ", NPH, " phases over "
+     	WRITE(11, *) TITER, " iterations"
+     	WRITE(11, *) "[FLDCURV] Estimated runtime: ",
+     &FLOAT(TITER)*FLOAT(NPH)*0.000015, " s"
+
+
+
 	CALL CPU_TIME(TSTART)
 c     Iterate over grid, compute
 	NITER = 0
+	LSTPCT = 0
+
+
       DO IDXI=1, NINCL
       DO IDXB=1, NBINCL
       DO IDXPH=1, NPHADJ
       DO IDXDP=1, NDP0S
-		ITER = NITER+1
+		
+c		Check for progress
+c		overhead is about 2.5% in computation time
+		if (NITER*100 / TITER .gt. LSTPCT) THEN
+			LSTPCT = NITER*100 / TITER
+			CALL CPU_TIME(CTIME)
+			WRITE(6, *) "	Completed ", LSTPCT, "% of iterations (T=",
+     &		CTIME-TSTART, " s)"
+     			WRITE(11, *) "	Completed ", LSTPCT, "% of iterations (T=",
+     &		CTIME-TSTART, " s)"
+		END IF
 c		WRITE(6, *) "[FLDCURV] ITERATION ", NITER  
 c		WRITE(6, *) "	I=", INCLS(IDXI)
 c		WRITE(6, *) "	B=", BINCLS(IDXB)
@@ -133,7 +164,8 @@ c		BESTPH, BESTDP, and BCHISQ.
 			BESTDP = DP0S(IDXDP)
 			WRITE(11, *) "	New best pars:", BESTI, 
      &		BESTB, BESTPH, BESTDP
-		END IF 
+		END IF
+		NITER = NITER+1
 
       ENDDO
       ENDDO

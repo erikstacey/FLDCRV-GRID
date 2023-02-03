@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as pl
 
-hjd, phases, bl, sigmab, nl, sigman = np.loadtxt("grunhut_bls.txt", skiprows=1, unpack=True)
+hjd, phases, bl, sigmab, nl, sigman = np.loadtxt("bls.dat", skiprows=1, unpack=True)
 phases_fldcurve, mod_bl = np.loadtxt("fldcurv.out", skiprows=0, unpack=True)
 
 pl.plot(phases, bl, color="black", marker=".", linestyle="none")
